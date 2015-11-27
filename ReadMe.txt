@@ -1,6 +1,11 @@
-"CoreTextArcCocoa" illustrates how to use CoreText to draw text along an arc in a Cocoa application.  
+CoreTextArcCocoa
+================
 
-The main drawing functionality demonstrated in this application is implemented in a custom NSView called CoreTextArcView.  And, all of the interresting functionality in that view is encapsulated in the  -drawRect: method in the CoreTextArcView.m file.  There, CoreText is used to layout and draw glyphs along a curve.
+ABOUT:
+
+Illustrates how to use CoreText to draw text along an arc in a Cocoa application.  
+
+The main drawing functionality demonstrated in this application is implemented in a custom NSView called CoreTextArcView.  And, all of the interesting functionality in that view is encapsulated in the  -drawRect: method in the CoreTextArcView.m file.  There, CoreText is used to layout and draw glyphs along a curve.
 
 This sample also makes use of the NSFontPanel to allow user configuration of the text being displayed in the custom view.  This functionality can be found in the file MyDocument.m.  Key points to make note of in that file are:
 
@@ -12,15 +17,28 @@ This sample also makes use of the NSFontPanel to allow user configuration of the
 
 
 
-Using the Sample
-Build and run this sample in Xcode 3.0 or later and run the resulting application.  When launched, the application will display a string drawn along an curve.  Click in the checkboxes in wthe window to change some font settings.  Choose the "Show Fonts" menu item from the "Format" menu to open the font panel so you can change additional font settings.
+USING THE SAMPLE:
+
+Build and run this sample.  When launched, the application will display a string drawn along an curve.  Click in the checkboxes in the window to change some font settings.  Choose the "Show Fonts" menu item from the "Format" menu to open the font panel so you can change additional font settings.
 
 
+===========================================================================
+BUILD REQUIREMENTS
 
-Feedback and Bug Reports
-Please send all feedback about this sample by connecting to the Contact ADC
-<http://developer.apple.com/contact/feedback.html> page.
-Please submit any bug reports about this sample to the Bug Reporting
-<http://developer.apple.com/bugreporter> page.
+Xcode 3.2, Mac OS X 10.6 Snow Leopard or later.
 
+===========================================================================
+RUNTIME REQUIREMENTS
 
+Mac OS X 10.6 Snow Leopard or later.
+
+===========================================================================
+CHANGES FROM PREVIOUS VERSIONS
+
+Version 1.1
+- Project updated for Xcode 4.
+Version 1.0
+- Initial Version
+
+===========================================================================
+Copyright (C) 2008-2011 Apple Inc. All rights reserved.
